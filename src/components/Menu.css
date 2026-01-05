@@ -1,0 +1,108 @@
+.menu {
+  padding: 70px 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.menu-card {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.menu-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.menu-card h3 {
+  margin: 15px 0 5px;
+}
+
+.menu-card p {
+  margin-bottom: 15px;
+  color: #6b3b28;
+}
+.menu-card button {
+  margin: 0 15px 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #5A2E1B;
+  color: white;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.menu-card button:hover {
+  opacity: 0.9;
+}
+.menu-card.combo {
+ 
+  background: #fff7ef;
+}
+
+.menu-card.special {
+  
+  background: #fffaf5;
+}
+/* Section heading spacing */
+.menu h3 {
+  margin-top: 40px;      
+  margin-bottom: 20px;   
+}
+.menu-download-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;              
+  margin: 24px 0 44px;
+}
+
+/* Bigger, premium buttons */
+.menu-download-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 26px;    
+  background: #5A2E1B;   
+  color: #FAF3E0;        
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1rem;       
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Icon slightly larger */
+.menu-download-item span {
+  margin-left: 4px;
+}
+
+/* Hover / tap effect */
+.menu-download-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(90, 46, 27, 0.35);
+}
+.download-heading {
+  text-align: center;
+  font-size: 1.3rem;        
+  font-weight: 700;
+  margin: 10px 0 18px;
+  color: #5A2E1B;           
+}

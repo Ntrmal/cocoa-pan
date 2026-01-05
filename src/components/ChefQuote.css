@@ -1,0 +1,18 @@
+.chef-quote {
+  padding: 80px 20px;
+  text-align: center;
+  background: #FAF3E0;
+}
+
+.chef-quote blockquote {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #5A2E1B;
+}
+
+.chef-quote p {
+  margin-top: 15px;
+  font-weight: bold;
+}

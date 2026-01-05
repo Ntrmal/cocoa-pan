@@ -1,0 +1,28 @@
+.order-form {
+  background: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 16px;
+  max-width: 600px;
+}
+
+.order-form h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.order-form input,
+.order-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+  outline: none;
+  border-color: #5A2E1B;
+}

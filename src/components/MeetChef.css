@@ -1,0 +1,36 @@
+.chef {
+  background: #E6D3B1;
+  padding: 70px 20px;
+}
+
+.chef-container {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  align-items: center;
+}
+
+.chef img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 18px;
+  margin: auto;
+}
+
+.chef-text h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.chef-text p {
+  margin-bottom: 10px;
+  color: #5A2E1B;
+}
+
+@media (min-width: 768px) {
+  .chef-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
