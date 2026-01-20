@@ -1,16 +1,53 @@
-# React + Vite
+# Cocoa Pan – Online Bakery Ordering Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cocoa Pan is a responsive web application built for a home bakery that allows customers to browse the menu, add items to cart, and place orders via WhatsApp with UPI (Google Pay) payment support.
 
-Currently, two official plugins are available:
+The app is designed to be lightweight, mobile-first, and fully free to host.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 https://cocoa-pan.netlify.app  
+*(Replace with your actual Netlify URL if different)*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+
+-  Mobile-first responsive design
+-  Dynamic menu (Loaf Cakes, Brownies, Specials & Combos)
+-  Add to Cart with persistent cart (localStorage)
+-  WhatsApp-based order confirmation
+-  UPI payment via QR code
+-  Multiple locations with Google Maps links
+-  Downloadable menu PDFs
+-  Privacy Policy & Terms pages
+-  Deployed on Netlify (free hosting)
+
+---
+
+##  Business Locations
+
+- **Mysuru, Karnataka**  
+- **Pulpally, Kerala**
+
+Orders are prepared from the nearest available location.
+
+---
+
+##  Tech Stack
+
+- **Frontend:** React + Vite
+- **Styling:** CSS (component-based)
+- **Routing:** React Router
+- **State Management:** React Hooks
+- **Storage:** Browser localStorage
+- **Hosting:** Netlify
+- **Payments:** Google Pay (UPI QR)
+- **Orders:** WhatsApp deep link
+
+---
+
+
+
